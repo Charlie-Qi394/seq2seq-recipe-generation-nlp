@@ -1,0 +1,14 @@
+hidden_size: 256
+embedding_dim: 256
+dropout: 0.1
+teacher_forcing_ratio: 1.0
+max_len: 150
+batch_size: 64
+num_epochs: 20
+learning_rate: 0.001
+grad_clip: 1.0
+vocab_min_freq: 2
+decode_method: beam
+beam_width: 3
+use_packed_sequences: true
+use_attention_mask: true

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seq2seq-recipe-generation-nlp"
+version = "0.1.0"
+description = "Portfolio-safe Seq2Seq recipe generation project using LSTM encoder-decoder models with optional attention."
+requires-python = ">=3.10"
+dependencies = [
+  "nltk>=3.8.1",
+  "numpy>=1.26.0",
+  "pandas>=2.1.0",
+  "torch>=2.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "matplotlib>=3.8.0",
+  "pytest>=8.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

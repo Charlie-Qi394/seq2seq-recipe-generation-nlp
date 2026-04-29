@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.DS_Store
+
+# Local or restricted data/checkpoints.
+data/raw/
+data/processed/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+

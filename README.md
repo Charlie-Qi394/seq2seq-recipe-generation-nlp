@@ -47,7 +47,7 @@ The model still showed limitations including repetition, missing ingredients, an
 
 ## Training Curves
 
-![Loss curves](artifacts/plots/loss_curves.png)
+![Loss curves](artifacts/plots/loss_curves.svg)
 
 ## Repository Structure
 
@@ -105,7 +105,7 @@ python -m recipe_generation.plot_artifacts
 - `artifacts/metrics/*_epoch_metrics.csv`: train/dev loss by epoch.
 - `artifacts/metrics/model_config_table.csv`: shared model and training configuration.
 - `artifacts/sample_outputs/qualitative_outputs.csv`: two qualitative generation examples.
-- `artifacts/plots/loss_curves.png`: stored training/development loss plot.
+- `artifacts/plots/loss_curves.svg`: stored training/development loss plot.
 
 ## Lessons Learned
 
